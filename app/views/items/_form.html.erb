@@ -1,0 +1,10 @@
+<%= form_for @item do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, class: 'form-control' %>
+  <%= f.label :des %>
+  <%= f.text_field :des, class: 'form-control' %>
+  <%= f.label :price %>
+  <%= f.text_field :price, class: 'form-control' %>
+
+  <%= f.submit %>
+<% end %>

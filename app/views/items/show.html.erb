@@ -4,3 +4,6 @@
 </p>
 <hr>
 <%= "Price is #{@item.price}." %>
+
+<%= link_to 'edit' , edit_item_path(@item) %>
+<%= link_to 'delete', item_path(@item),data: {confirm: "Really delete the article?"},method: :delete%>
