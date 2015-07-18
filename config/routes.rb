@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :vikingstore, only: [:new]
+  resources :items, only: [:new]
 
   
 
