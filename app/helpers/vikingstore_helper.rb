@@ -1,0 +1,2 @@
+module VikingstoreHelper
+end
