@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :items, only: [:new]
+  resources :items, only: [:new, :index, :create, :show]
 
   
 
